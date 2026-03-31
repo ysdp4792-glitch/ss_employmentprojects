@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{16071300-dccd-4b4b-8856-62b732304637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{9470e910-5dc5-4ef6-a0b6-8d37f19f0b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collision">
+      <UniqueIdentifier>{961bfbb9-ddb9-4de8-96f4-3e265841ee72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MyMath">
+      <UniqueIdentifier>{a3ffb008-6d09-4409-b0a2-07cf686b6f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{a3d2fefb-bce7-4121-9a67-e00b28056bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{6a368e67-2da1-49e9-8894-8a80d4eb72ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{d3bee250-4860-472d-8731-a0205437574a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Stage">
+      <UniqueIdentifier>{2f22449e-96f0-48ed-b7d7-6bdcdc1e94ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Parts">
+      <UniqueIdentifier>{5c491254-df1b-4a7e-ba43-0f91b7457a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Bullet">
+      <UniqueIdentifier>{907b5a01-509b-49d5-a8e2-34bd16dfbaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Born">
+      <UniqueIdentifier>{42d16f18-1ceb-481a-9367-b6523bfbd4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy">
+      <UniqueIdentifier>{1c22b1b8-a789-4e2d-8d0c-49ffd28d8e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SkyImage">
+      <UniqueIdentifier>{112949dc-a540-4b13-bbb7-d1648c1de7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{a70f0a98-92cd-4d97-9db5-8c6f5a77ea07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project\Player\Player.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Player\PlayerManager.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Collision\CollisionAABB.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Collision\CollisionManager.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Collision\CollisionSphere.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\MyMath\MyMath.cpp">
+      <Filter>Source\MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scene\ClearScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scene\PlayScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scene\SceneBase.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scene\SceneManager.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scene\TitleScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Camera\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Camera\CameraBase.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Camera\CameraManager.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Camera\DebugCamera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Stage\Stage.cpp">
+      <Filter>Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Stage\StageManager.cpp">
+      <Filter>Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Collision\CollisionCapsule.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Parts\PartsBase.cpp">
+      <Filter>Source\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Parts\PartsLeftArm.cpp">
+      <Filter>Source\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Parts\PartsManager.cpp">
+      <Filter>Source\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Bullet\BulletBase.cpp">
+      <Filter>Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Bullet\BulletManager.cpp">
+      <Filter>Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Bullet\PlayerBullet.cpp">
+      <Filter>Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Parts\PartsLeg.cpp">
+      <Filter>Source\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Parts\PartsRightArm.cpp">
+      <Filter>Source\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Parts\PartsHeadBody.cpp">
+      <Filter>Source\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Born\PlayerBorn.cpp">
+      <Filter>Source\Born</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Player\PlayerRobot.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Enemy\EnemyBase.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Enemy\EnemyManager.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Enemy\NormalEnemy.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Effect\EffecseerEffect.cpp" />
+    <ClCompile Include="Project\Effect\EffecseerManager.cpp" />
+    <ClCompile Include="Project\Bullet\EnemyBullet.cpp">
+      <Filter>Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Enemy\BossEnemy.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\SkyImage\SkyImage.cpp">
+      <Filter>Source\SkyImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Sound\Sound.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project\Player\Player.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Player\PlayerManager.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Collision\CollisionAABB.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Collision\CollisionManager.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Collision\CollisionSphere.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\MyMath\MyMath.h">
+      <Filter>Source\MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\ClearScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\PlayScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\SceneBase.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\SceneManager.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\SceneParameter.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scene\TitleScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Camera\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Camera\CameraBase.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Camera\CameraManager.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Camera\DebugCamera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Stage\Stage.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Stage\StageManager.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Collision\CollisionCapsule.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Parts\PartsBase.h">
+      <Filter>Source\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Parts\PartsLeftArm.h">
+      <Filter>Source\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Parts\PartsManager.h">
+      <Filter>Source\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Bullet\BulletBase.h">
+      <Filter>Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Bullet\BulletManager.h">
+      <Filter>Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Bullet\PlayerBullet.h">
+      <Filter>Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Parts\PartsLeg.h">
+      <Filter>Source\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Parts\PartsRightArm.h">
+      <Filter>Source\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Common\Common.h" />
+    <ClInclude Include="Project\Parts\PartsHeadBody.h">
+      <Filter>Source\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Born\PlayerBorn.h">
+      <Filter>Source\Born</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Player\PlayerRobot.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Enemy\EnemyBase.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Enemy\EnemyManager.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Enemy\EnemyParaMeter.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Enemy\NormalEnemy.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Effect\EffecseerEffect.h" />
+    <ClInclude Include="Project\Effect\EffecseerManager.h" />
+    <ClInclude Include="Project\Bullet\EnemyBullet.h">
+      <Filter>Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Enemy\BossEnemy.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\SkyImage\SkyImage.h">
+      <Filter>Source\SkyImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Sound\Sound.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
